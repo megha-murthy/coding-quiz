@@ -1,0 +1,62 @@
+#vscore{
+    text-align:left;
+    text-decoration: none;
+    position:absolute;
+    color:blue;
+    
+}
+
+.header h4{
+    text-align: right;
+    position: relative;
+    margin-left: 100px;
+}
+
+.content h2, .content p{
+    text-align:center;
+    margin:20px;
+    
+
+}
+
+.content h2{
+    padding-top:50px;
+}
+
+
+#start, #back, #clear-score{  
+    text-align: center;
+    background-color: blue;
+    color:white;
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+
+body{
+    /* background-color: rgb(197, 193, 193); */
+    background-image: url("spikes.png");
+    margin: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.answer-container{
+    font-size: 16px;
+}
+
+.question-index , .all-done{
+    margin: 100px;
+}
+
+#go-back{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+
+
+

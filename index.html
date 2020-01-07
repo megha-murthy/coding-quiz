@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="landing">
+        <section class="header">
+            <!-- <button id="score">View Highscores</button> -->
+            <!-- <button id="hs"><a href="viewhighscores.html" id="score">View Highscores</a></button> -->
+            <a href="viewhighscores.html" id="vscore">View Highscores</a>
+            <h4>Time:<span id="timer">00</span></h4>
+        </section>
+        <section class="content">
+            <h2>Coding Quiz Challenge</h2>
+            <p> Answering correctly results in a higher score. Answering incorrectly results in a time penalty of 15 seconds</p>
+            <!-- <p><a href="quizpage.html"><button id="start">Start Quiz</button></a></p> -->
+            <p><button id="start">Start Quiz</button></p>
+        </section>    
+    </div>
+
+    
+    <div class="question-index">
+        <div class="qa">
+            <div class="question">
+                <p id="para-q"></p>
+            </div>    
+
+            <div class="answer-container">
+                <ul id="ans-cont">
+
+                </ul>
+            </div>
+
+            <div class="result">
+
+            </div>
+            
+        </div>
+    </div>
+    
+  <div class="all-done">
+       
+    </div>  
+    
+    <div class="high-scores">
+
+        <ul id="high">
+
+        </ul>
+
+        <!-- <button id="back"><a href="index.html">Go Back</a></button>
+        <button id="clear">Clear Scores</button>  -->
+
+    </div>
+     
+
+    <script src="questions.js"></script>
+    
+</body>
+</html>
