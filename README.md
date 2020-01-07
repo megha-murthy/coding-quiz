@@ -20,7 +20,9 @@ This application is a timer-based quiz application that stores high scores clien
 
 
 ## Screenshots:
-![ ]()
-![ ]()
+![ ](index.png)
+![ ](questions.png)
+![ ](alldone.png)
+![ ](Highscores.png)
 
 

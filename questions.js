@@ -174,7 +174,7 @@ function nextQuestion(){
 
         submitButton.setAttribute("onclick",'viewHighscores()');
         submitButton.textContent= "Submit";
-        submitButton.setAttribute("style","background-color:blue; width:100px; height: 30px; color:white")
+        submitButton.setAttribute("style","background-color:blue; width:100px; height: 30px; color:white;font-size:15px;")
         sepDiv.appendChild(submitButton);
         
     }
