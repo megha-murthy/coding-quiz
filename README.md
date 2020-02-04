@@ -1,5 +1,6 @@
 # coding-quiz
 Javascript Coding Challenge
+https://megha-murthy.github.io/coding-quiz/
 
 ## Description: 
 This application is a timer-based quiz application that stores high scores client-side.
